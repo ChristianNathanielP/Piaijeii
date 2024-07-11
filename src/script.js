@@ -1,20 +1,13 @@
 // Hamburger Menu
 
-// const hamburger = document.querySelector('#hamburger');
-// const navmenu = document.querySelector('#navMenu');
-
-// hamburger.addEventListener('click', function() {
-//     hamburger.classList.toggle('hamburger-active');
-//     navmenu.classList.toggle('hidden');
-// });
-
 const hamburger = document.querySelector('#hamburger');
-const navMenu = document.querySelector('#nav-menu')
+const navmenu = document.querySelector('#navMenu');
 
 hamburger.addEventListener('click', function() {
-    hamburger.classList.toggle('hamburger-active')
-    navMenu.classList.toggle('hidden');
+    hamburger.classList.toggle('hamburger-active');
+    navmenu.classList.toggle('hidden');
 });
+
 
 window.onscroll = function() {
     const header = document.querySelector('header');
