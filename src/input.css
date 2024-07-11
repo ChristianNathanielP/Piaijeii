@@ -9,6 +9,12 @@
     box-sizing: box-box;
 }
 
+.bg_login{
+    background : url("../assets/svg/bg_login.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card-gradient {
     background: rgb(19,24,66);
     background: linear-gradient(0deg, rgba(19,24,66,0.8352591036414566) 50%, rgba(238,237,235,0.6839985994397759) 100%);
