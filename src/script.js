@@ -1,11 +1,19 @@
 // Hamburger Menu
 
+// const hamburger = document.querySelector('#hamburger');
+// const navmenu = document.querySelector('#navMenu');
+
+// hamburger.addEventListener('click', function() {
+//     hamburger.classList.toggle('hamburger-active');
+//     navmenu.classList.toggle('hidden');
+// });
+
 const hamburger = document.querySelector('#hamburger');
-const navmenu = document.querySelector('#navMenu');
+const navMenu = document.querySelector('#nav-menu')
 
 hamburger.addEventListener('click', function() {
-    hamburger.classList.toggle('hamburger-active');
-    navmenu.classList.toggle('hidden');
+    hamburger.classList.toggle('hamburger-active')
+    navMenu.classList.toggle('hidden');
 });
 
 window.onscroll = function() {
@@ -28,6 +36,8 @@ window.onscroll = function() {
 var typingEffect = new Typed(".multitext", {
     strings : [
         'Canva',
+        'CapCut',
+        'ChatGPT',
         'Prime Video',
         'Vidio',
         'Viu',
@@ -35,16 +45,14 @@ var typingEffect = new Typed(".multitext", {
         'Youtube',
         'Disney+', 
         'WeTV',
-        'ChatGPT',
-        'CapCut',
         'BStation',
         'IQIYI',
         'HBO GO',
     ],
     typeSpeed: 50,
-    backSpeed: 100,
+    backSpeed: 50,
     startDelay: 500,
-    backDelay: 1000,
+    backDelay: 500,
     loop: true,
     smartBackspace: true,
 });
